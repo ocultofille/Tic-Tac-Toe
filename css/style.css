@@ -1,0 +1,77 @@
+.main2{
+    /* display: none; */
+}
+*{
+    background-color: black;
+}
+.boxEdit{
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    align-items: center;
+}
+.module-border-wrap {
+    /* padding: 3px; */
+    background: linear-gradient(to right, red, purple, rgb(67, 4, 155));
+}
+.colWidth {
+    width: 300px;
+}
+.inputData{
+    width:50%l
+}
+
+.banner {
+    font-size: 72px;
+    background: -webkit-linear-gradient(red, purple, rgb(67, 4, 155));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    width: 400px;
+    display: none;
+}
+
+.boxEdit {
+    width: 32.5%;
+    height: 100px;
+}
+
+.scoreBoard {
+    width: 300px
+}
+
+.player1Name,
+.player2Name {
+    width: 49.5%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+.player1Score,
+.player2Score {
+    width: 49.5%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

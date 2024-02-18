@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <div class="container-fiuid  p-5">
+
+        <div class="banner text-center kanit-regular "> TIC TAC TOE</div>
+
+        <div class="row main2  mx-3 my-3 justify-content-center">
+
+            <div class="col-md-6   my-3  colWidth ">
+                <div class="mx-auto px-5 inputData">
+                    <div class="my-4 module-border-wrap p-1 rounded-3 mx-auto">
+                        <input type="text" class="p1 border-0  form-control text-uppercase text-warning " placeholder="Player 1"
+                            style="background-color: black;">
+                    </div>
+                </div>
+                <div class="mx-auto px-5 inputData">
+                    <div class="my-4  module-border-wrap p-1 rounded-3 mx-auto">
+                        <input type="text" class="p2 border-0 form-control text-uppercase  text-warning" placeholder="Player 2"
+                            style="background-color: black;">
+                    </div>
+                </div>
+
+
+                <button class="btn text-warning module-border-wrap p-2 px-5 mx-auto d-block fw-bolder start"> START </button>
+            </div>
+
+        </div>
+
+        <div class="main mx-auto " id="div2">
+           
+            <div class="d-flex flex-wrap my-5  module-border-wrap kanit-regular grid justify-content-between">
+                <div class=" boxEdit mb-1 " id="0"></div>
+                <div class=" boxEdit mb-1 " id="1"></div>
+                <div class=" boxEdit mb-1 " id="2"></div>
+
+                <div class=" boxEdit mb-1 " id="3"></div>
+                <div class=" boxEdit mb-1 " id="4"></div>
+                <div class=" boxEdit mb-1 " id="5"></div>
+                <div class=" boxEdit      " id="6"></div>
+                <div class=" boxEdit      " id="7"></div>
+                <div class=" boxEdit      " id="8"></div>
+
+            </div>
+
+            <div class="scoreBoard text-warning mx-auto mb-4">
+                <div class=" d-flex flex-wrap    module-border-wrap p-1  justify-content-between ">
+                    <div class="player1Name text-uppercase mb-1 "></div>
+                    <div class="player2Name text-uppercase mb-1 "></div>
+                    <div class="player1Score text-uppercase "></div>
+                    <div class="player2Score text-uppercase "></div>
+                </div>
+            </div>
+
+            
+            <div class="text-center ">
+                <button class="btn text-warning module-border-wrap p-2 px-5  fw-bolder" onclick="reset()"> RESET </button>
+            <button class="btn text-warning module-border-wrap p-2 px-5  fw-bolder" onclick="restart1()"> RESTART </button>
+            </div>
+            
+        </div>
+    </div>
+   
+
+    <!--
+        
+        <div class="grid2" >
+            <table cellspacing="0"  cellpadding="5px" style="text-align: center; margin-bottom: 50px; margin-left: auto; margin-right: auto;">
+                <tr>
+                    <th class="pla1">player1</th>
+                    <th class="pla2">player2</th>
+                </tr>
+                <tr>
+                    <td class="player1Score">0</td>
+                    <td class="s2">0</td>
+                </tr>
+            </table>
+    
+            <button type="button" value="reset" onclick="reset()"> Reset</button>
+    
+            <button type="button" value="restart" onclick="restart1()"> Restart</button>
+        </div>
+        
+
+
+
+
+       
+
+    -->
+    <script src="js\index.js">
+
+
+    </script>
+</body>
+
+</html>
