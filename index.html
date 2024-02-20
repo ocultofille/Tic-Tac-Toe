@@ -24,18 +24,18 @@
 <body>
     <div class="container-fiuid  p-5">
 
-        <div class="banner text-center kanit-regular "> TIC TAC TOE</div>
+        <div class="banner text-center kanit-regular  "> TIC-TAC-TOE</div>
 
         <div class="row main2  mx-3 my-3 justify-content-center">
 
-            <div class="col-md-6   my-3  colWidth ">
-                <div class="mx-auto px-5 inputData">
+            <div class="col-sm-6 col-md-4  my-1  colWidth ">
+                <div class="mx-auto  inputData">
                     <div class="my-4 module-border-wrap p-1 rounded-3 mx-auto">
                         <input type="text" class="p1 border-0  form-control text-uppercase text-warning " placeholder="Player 1"
                             style="background-color: black;">
                     </div>
                 </div>
-                <div class="mx-auto px-5 inputData">
+                <div class="mx-auto  inputData">
                     <div class="my-4  module-border-wrap p-1 rounded-3 mx-auto">
                         <input type="text" class="p2 border-0 form-control text-uppercase  text-warning" placeholder="Player 2"
                             style="background-color: black;">
@@ -48,7 +48,7 @@
 
         </div>
 
-        <div class="main mx-auto " id="div2">
+        <div class="main mx-auto col-sm-6 justify-content-center" id="div2">
            
             <div class="d-flex flex-wrap my-5  module-border-wrap kanit-regular grid justify-content-between">
                 <div class=" boxEdit mb-1 " id="0"></div>
@@ -75,40 +75,12 @@
 
             
             <div class="text-center ">
-                <button class="btn text-warning module-border-wrap p-2 px-5  fw-bolder" onclick="reset()"> RESET </button>
-            <button class="btn text-warning module-border-wrap p-2 px-5  fw-bolder" onclick="restart1()"> RESTART </button>
+                <button class="btn text-warning module-border-wrap p-2 px-5 mb-3 fw-bolder" onclick="reset()"> RESET </button>
+            <button class="btn text-warning module-border-wrap p-2 px-5  mb-3 fw-bolder" onclick="restart1()"> RESTART </button>
             </div>
             
         </div>
     </div>
-   
-
-    <!--
-        
-        <div class="grid2" >
-            <table cellspacing="0"  cellpadding="5px" style="text-align: center; margin-bottom: 50px; margin-left: auto; margin-right: auto;">
-                <tr>
-                    <th class="pla1">player1</th>
-                    <th class="pla2">player2</th>
-                </tr>
-                <tr>
-                    <td class="player1Score">0</td>
-                    <td class="s2">0</td>
-                </tr>
-            </table>
-    
-            <button type="button" value="reset" onclick="reset()"> Reset</button>
-    
-            <button type="button" value="restart" onclick="restart1()"> Restart</button>
-        </div>
-        
-
-
-
-
-       
-
-    -->
     <script src="js\index.js">
 
 

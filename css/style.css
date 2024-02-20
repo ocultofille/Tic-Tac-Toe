@@ -21,7 +21,7 @@
     width: 300px;
 }
 .inputData{
-    width:50%l
+    width:100%;
 }
 
 .banner {
@@ -35,10 +35,11 @@
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 40px;
 }
 
 .main {
-    width: 400px;
+    width: 300px;
     display: none;
 }
 
